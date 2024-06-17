@@ -30,8 +30,11 @@ public class VehicleDao {
             preparedStatement.setInt(4,vehicle.getYear());
             preparedStatement.setBoolean(5,vehicle.isSold());
             preparedStatement.setString(6,vehicle.getColor());
-            
+            preparedStatement.setString(7, vehicle.getVehicleType());
+            preparedStatement.setInt(8,vehicle.getOdometer());
+            preparedStatement.setDouble(9,vehicle.getPrice());
 
+            preparedStatement.executeUpdate();
         }catch (Exception ex){
             ex.printStackTrace();
         }
