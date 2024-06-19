@@ -16,7 +16,7 @@ public class SalesDao {
     }
 
     public void addSalesContract(SalesContract salesContract) {
-        // TODO: Implement the logic to add a sales contract
+
         try(Connection connection = dataSource.getConnection();
             PreparedStatement preparedStatement = connection.prepareStatement(
                     """
