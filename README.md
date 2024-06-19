@@ -13,9 +13,10 @@ adding,deleting,creating contracts, and search for specific results.
 - As a user, I want to filter cars by price, color, make/model, year, and or type
 - As a user, I want to interact with the dealership database
 
-## Setup
+## Application in Action
 
-Instructions on how to set up and run the project using IntelliJ IDEA.
+
+
 
 ### Prerequisites
 
