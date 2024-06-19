@@ -16,6 +16,7 @@ adding,deleting,creating contracts, and search for specific results.
 ## Application in Action
 
 
+![jdbcGif](https://github.com/singhun1t/jdbc-dealership-project/assets/16910183/d2689a0b-6f3a-437f-8dde-a98cc2b05d1d)
 
 
 ### Prerequisites
